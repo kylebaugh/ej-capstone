@@ -1,7 +1,7 @@
-@font-face {
+/* @font-face {
     font-family: water;
     src: url(./fonts/WaterGalon-ywgjV.otf);
-}
+} */
 
 body{
     display: flex;
@@ -9,7 +9,7 @@ body{
     align-items: center;
     overflow-x: hidden;
     background-color: #8598A9;
-    font-family: water;
+    /* font-family: water; */
 }
 
 button {
@@ -28,7 +28,7 @@ button {
 }
 section {
     text-align: center;
-    font-family: water;
+    /* font-family: water; */
     margin-top: 30px;
     margin-bottom:30px;
     font-size: xx-large;
@@ -40,7 +40,7 @@ section {
 ul {
     width:50vw;
 margin-bottom: 30px;
-font-family: water;
+/* font-family: water; */
 }
 
 input {
@@ -55,7 +55,7 @@ li {
     border-radius: 20px;
     color:#99B7C8;
     background-color: #104756;
-    font-family:water;
+    /* font-family:water; */
     margin-bottom: 10px;
 }
 
@@ -68,7 +68,7 @@ p {
 }
 
 footer {
-    font-family:water;
+    /* font-family:water; */
     font-size: larger;
     background-color:#C3D2DF;
     border-radius: 5px;
@@ -94,7 +94,7 @@ ul {
 
 
 #adjust {
-    font-family:water;
+    /* font-family:water; */
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -111,7 +111,7 @@ ul {
 }
 
 #launch{
-    font-family: water;
+    /* font-family: water; */
 text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -125,7 +125,7 @@ text-align: center;
     background-size: contain;}
 
 #hold {
-    font-family:water;
+    /* font-family:water; */
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -140,7 +140,7 @@ text-align: center;
 }
 
 #strokes {
-    font-family:water;
+    /* font-family:water; */
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -155,7 +155,7 @@ text-align: center;
 }
 
 #ruddersandSkegs {
-    font-family:water;
+    /* font-family:water; */
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -170,7 +170,7 @@ text-align: center;
 }
 
 #safety {
-    font-family:water;
+    /* font-family:water; */
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -186,7 +186,7 @@ text-align: center;
 }
 
 #tips {
-    font-family:water;
+    /* font-family:water; */
     text-align: center;
     margin-top: 50px;
     font-size: xx-large;
@@ -202,7 +202,7 @@ text-align: center;
 
 #myKayaksBtn {
     position: absolute;
-    font-family:water;
+    /* font-family:water; */
     position:absolute;
     right:0vw;
     background-color: #99B7C8;
@@ -210,7 +210,7 @@ text-align: center;
 }
 
 #welcomeBtn {
-    font-family:water;
+    /* font-family:water; */
     position: absolute;
     background-color:#99B7C8 ;
     left:0vw;

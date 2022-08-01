@@ -23,6 +23,10 @@ app.get ('/styles2', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/list.css'))
 })
 
+app.get('/reset', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/reset.css'))
+})
+
 app.get ('/js', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/homefront.js'))
 })
