@@ -19,6 +19,10 @@ app.get('/list', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/list.html'))
 })
 
+app.get('/myfont', (req, res) => {
+    res.sendFile(path.join(__dirname, '../fonts/WaterGalon-ywgjV.otf'))
+})
+
 app.get ('/styles', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/home.css'))
 })
@@ -36,7 +40,7 @@ app.get ('/js', (req, res) => {
 })
 
 app.get ('/js2', (req, res) => {
-    res.sendFile(path.join(__dirname, '../client/listfront.css'))
+    res.sendFile(path.join(__dirname, '../client/listfront.js'))
 })
 
 

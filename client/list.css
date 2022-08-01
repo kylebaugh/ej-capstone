@@ -1,11 +1,6 @@
 @font-face {
     font-family: water;
-    src: url(./fonts/WaterGalon-ywgjV.otf);
-}
-
-@font-face {
-    font-family: water2;
-    src: url(./fonts/FizzoRegular-DX80.otf);
+    src: url(./myfont);
 }
 
 body {
