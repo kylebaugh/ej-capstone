@@ -1,4 +1,4 @@
-const kayaks = require('./db.json')
+const kayaks = []
 
 
 let globalId = 0
