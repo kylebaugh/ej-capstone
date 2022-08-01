@@ -15,6 +15,10 @@ app.get('/', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/home.html'))
 })
 
+app.get('/list', (req, res) => {
+    res.sendFile(path.join(__dirname, '../client/list.html'))
+})
+
 app.get ('/styles', (req, res) => {
     res.sendFile(path.join(__dirname, '../client/home.css'))
 })
