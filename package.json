@@ -10,7 +10,7 @@
   "main": "Server/homeback.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node homeback.js"
+    "start": "node server/index.js"
   },
   "keywords": [],
   "author": "",
