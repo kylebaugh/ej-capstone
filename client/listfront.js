@@ -1,4 +1,4 @@
-const baseURL = 'http://localhost:4000'
+const baseURL = 'https://f24-alan.herokuapp.com/'
 
 const kayaksContainer = document.querySelector('#kayaks-container')
 const form = document.querySelector('form')
