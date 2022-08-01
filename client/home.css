@@ -1,0 +1,222 @@
+@font-face {
+    font-family: water;
+    src: url(./fonts/WaterGalon-ywgjV.otf);
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-x: hidden;
+    background-color: #8598A9;
+    font-family: water;
+}
+
+button {
+    padding: 10px;
+    border-radius: 10px;
+    -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+}
+
+#mainPic {
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
+    width: 100vw;
+    height:60vh;
+}
+section {
+    text-align: center;
+    font-family: water;
+    margin-top: 30px;
+    margin-bottom:30px;
+    font-size: xx-large;
+    background: #99B7C8;
+    border-radius: 40px;
+
+}
+
+ul {
+    width:50vw;
+margin-bottom: 30px;
+font-family: water;
+}
+
+input {
+    margin-left: 450px;
+}
+
+
+
+
+li {
+    font-size: large;
+    border-radius: 20px;
+    color:#99B7C8;
+    background-color: #104756;
+    font-family:water;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: large;
+    font-weight: bolder;
+    color: #C3D2DF;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    font-family:water;
+    font-size: larger;
+    background-color:#C3D2DF;
+    border-radius: 5px;
+    background-color:#99B7C8;
+    font-size: x-large;
+}
+
+iframe {
+    margin-top:30px;
+    border-radius: 40px;
+    border-width: 60px;
+    border: 20px;
+}
+
+ul {
+    background-color: #104756;
+    border-radius: 40px;
+
+    text-align: center;
+    background-size: contain;
+}
+
+
+
+#adjust {
+    font-family:water;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    position: sticky;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;
+  
+}
+
+#launch{
+    font-family: water;
+text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;}
+
+#hold {
+    font-family:water;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;
+}
+
+#strokes {
+    font-family:water;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;
+}
+
+#ruddersandSkegs {
+    font-family:water;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;
+}
+
+#safety {
+    font-family:water;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;
+
+}
+
+#tips {
+    font-family:water;
+    text-align: center;
+    margin-top: 50px;
+    font-size: xx-large;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background: #2098A8;
+    border-radius: 40px;
+    border-width: 60px;
+    text-align: center;
+    background-size: contain;
+}
+
+#myKayaksBtn {
+    position: absolute;
+    font-family:water;
+    position:absolute;
+    right:0vw;
+    background-color: #99B7C8;
+
+}
+
+#welcomeBtn {
+    font-family:water;
+    position: absolute;
+    background-color:#99B7C8 ;
+    left:0vw;
+}
+
+.checked {
+    color: #000000;
+    text-decoration: line-through;
+}

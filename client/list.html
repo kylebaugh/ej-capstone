@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Class 2</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="list.css">
+    <link rel="stylesheet" href="/styles2">
+</head>
+<header class="listHeader">Now we're going to make a list of kayaks you like! In the first box, put the image address for the image you want displayed. In the second box put the link you found the kayak at that you want to buy. And in the third box just put the price of the kayak!</header>
+
+<body>
+    <img id="listImage" src="https://scandasia.com/wp-content/uploads/2021/05/kayaking_indonesia-3-1024x576.jpg">
+
+    <border class="listExtraStyle"></border>
+    <border class="listExtraStyle"></border>
+    <border class="listExtraStyle"></border>
+
+    <form>
+        <input id="imageInput" placeholder="Input picture address"/>
+        <input id="websiteInput" placeholder="Input URL here"/>
+        <input id="priceInput" placeholder="Input price here"/>
+        <button id="postBtn">Post Kayak</button>
+    </form> 
+    
+    <section id="kayaks-container"></section>
+
+<button id="farewellBtn">PRESS ME</button>
+
+<button id="homeBack" onclick="window.location.href = 'home.html';"> GO HOME </button>
+    
+    <script src=https://unpkg.com/axios/dist/axios.min.js></script>
+    <script src="listfront.js"></script>
+    <script src="/js2"></script>
+
+</body>
+</html>
